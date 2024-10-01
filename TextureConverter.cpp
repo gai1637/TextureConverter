@@ -1,6 +1,5 @@
 #include "TextureConverter.h"
-#include<stringapiset.h>
-
+#include<Windows.h>
 void TextureConverter::ConvertTextureWICToDDS(const std::string& filepath)
 {
 	//テクスチャファイルを読み込む
